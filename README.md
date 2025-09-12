@@ -94,7 +94,7 @@ var rnbo = RNBOAudioUnitHostModel()
 let message: [Double] = [220, 330, 0.2, 0.3, 0.5]
 rnbo.sendMessage(message)
 ```
-`Number` is a single element `list` and the `bang` should be converted from an arbitrary non-empty message in the pathcer itself for now.
+`Number` is a single element `list` and the `bang` should be converted from an arbitrary non-empty message in the patcher itself for now.
 
 Currently RNBOEventHandler can't receive messages from outports. Help with implementation would be appreciated.
 
